@@ -1,0 +1,9 @@
+calculator
+*.exe
+*.out
+a.out
+*.o
+*.obj
+*~
+*.swp
+*.log
