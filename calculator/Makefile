@@ -7,12 +7,12 @@ TARGET = calculator
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-    $(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
 
 clean:
-    rm -f $(TARGET)
+	rm -f $(TARGET)
 
 run: $(TARGET)
-    ./$(TARGET)
+	./$(TARGET)
 
 .PHONY: all clean run
